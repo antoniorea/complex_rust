@@ -17,7 +17,10 @@ use num_complex::Complex64;
 
 
 fn main() {
+    println!("Please enter the values for mudule and argument in degrees, separated with a space");
+    println!("First coplex number : ");
     let  z1 : Complex64  = complex_rust::get_complex();
+    println!("Second coplex number : ");
     let  z2 : Complex64  = complex_rust::get_complex();
 
     let (z, w) = complex_rust::sum_complex( z1, z2 );

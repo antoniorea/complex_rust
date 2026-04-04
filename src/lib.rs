@@ -9,7 +9,7 @@ pub fn sum_complex( z1 : Complex64, z2 : Complex64) -> (Complex64 , Complex64) {
 
 
 pub fn get_complex() -> Complex64 {
-    eprint!("Please enter the values for mudule and argument in degrees, separated with a space: \n>");
+
     let mut holder = String::new();
     std::io::stdin()
         .read_line(&mut holder)
