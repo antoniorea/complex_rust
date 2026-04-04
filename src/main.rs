@@ -4,11 +4,14 @@
     Este programa suma y resta dos numeros complejos en coord. polares
     los argumentos deben estar expresados en grados
 $ ./complex_rs
-Introduzca mod y arg del primer y segundo num complejo :
-12.04 48.36 8.6 54.46
+Please enter the values for mudule and argument in degrees, separated with a space
+First coplex number :
+12.04 48.36
+Second coplex number :
+8.6 54.46
 
-z1 + z2:  El mod. de z es : 20.61; el arg. de z en grados es : 50.90    - Coord Cart. : 13.00 + 16.00j
-z1 - z2:  El mod. de z es : 3.61; el arg. de z en grados es : 33.68     - Coord Cart. : 3.00 + 2.00j
+z1 + z2:  El mod. de z es : 20.61; el arg. de z en grados es : 50.90    - Coord Cart. : 13.00 + 16.00 j
+z1 - z2:  El mod. de z es : 3.61; el arg. de z en grados es : 33.68     - Coord Cart. : 3.00 + 2.00 j
 */
 
 use complex_rust;
