@@ -16,8 +16,8 @@ pub fn get_complex() -> Complex64 {
         .expect("error reading input");
     let test: Vec<&str> = holder.split_whitespace().collect();
     assert_eq!(2, test.len(), "expected two numbers");
-    let m: f64 = test[0].parse().expect("'m' is not a number");
-    let a: f64 = test[1].parse().expect("'a' is not a number");
+    let m: f64 = test[0].parse::<f64>().expect("'m' is not a number");
+    let a: f64 = test[1].parse::<f64>().expect("'a' is not a number");
     return Complex64::from_polar(m, a * PI / 180.0);
 
 }
