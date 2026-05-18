@@ -21,10 +21,10 @@ use num_complex::Complex64;
 
 
 fn main() {
-    println!("Please enter the values for modulus and argument in degrees, separated with a space");
-    let (m1, a1) = complex_rust::get_input("First coplex number : ");
+    println!("Please enter the values for modulus and argument (in degrees), separated with a space");
+    let (m1, a1) = complex_rust::get_input("First complex number : ");
     let  z1 : Complex64  = Complex64::from_polar(m1, a1 * PI / 180.0);
-    let (m2, a2) = complex_rust::get_input("Second coplex number : ");
+    let (m2, a2) = complex_rust::get_input("Second complex number : ");
     let  z2 : Complex64  = Complex64::from_polar(m2, a2 * PI / 180.0);
 
     //let (z, w) = complex_rust::sum_complex( z1, z2 );
